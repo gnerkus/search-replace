@@ -1,9 +1,10 @@
-namespace search_replace;
-
-public partial class Form1 : Form
+namespace search_replace
 {
-    public Form1()
+    public partial class Form1 : Form
     {
-        InitializeComponent();
+        public Form1()
+        {
+            InitializeComponent();
+        }
     }
 }
