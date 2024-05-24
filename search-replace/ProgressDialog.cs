@@ -9,17 +9,18 @@ namespace search_replace
         }
 
         /// <summary>
-        /// Updates the progress of the operation being displayed in the progress dialog.
+        ///     Updates the progress of the operation being displayed in the progress dialog.
         /// </summary>
         /// <param name="filePath">The path of the current file being processed.</param>
         /// <param name="progressPercent">The percentage of completion of the operation.</param>
         /// <remarks>
-        /// This method updates the text displayed for the current file being processed
-        /// and adjusts the progress bar to reflect the progress percentage.
-        /// The method checks if the current thread is different from the one that created the control
-        /// If invoked from a different thread than the one that created the control,
-        /// it will use <see cref="M:System.Windows.Forms.Control.Invoke" /> to marshal the call to the proper
-        /// thread.
+        ///     This method updates the text displayed for the current file being processed
+        ///     and adjusts the progress bar to reflect the progress percentage.
+        ///     The method checks if the current thread is different from the one that created the control
+        ///     If invoked from a different thread than the one that created the control,
+        ///     it will use <see cref="M:System.Windows.Forms.Control.Invoke" /> to marshal the call to the
+        ///     proper
+        ///     thread.
         /// </remarks>
         public void UpdateProgress(string filePath, int progressPercent)
         {
@@ -37,7 +38,7 @@ namespace search_replace
         }
 
         /// <summary>
-        /// called when the dialog is loaded
+        ///     called when the dialog is loaded
         /// </summary>
         /// <param name="e"></param>
         protected override void OnLoad(EventArgs e)
