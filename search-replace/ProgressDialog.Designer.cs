@@ -1,6 +1,6 @@
 ﻿namespace search_replace;
 
-partial class Form1
+partial class ProgressDialog
 {
     /// <summary>
     ///  Required designer variable.

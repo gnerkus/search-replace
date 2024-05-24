@@ -42,10 +42,9 @@ namespace search_replace
         [STAThread]
         private static void Main()
         {
-            // Console.Title = "Text Replacement Console App";
             const string directoryPath = @"D:\Projects\App-Workspace\hooks-ts";
-            const string searchText = "equivalent of";
-            const string replaceText = "same as";
+            const string searchText = "same as";
+            const string replaceText = "equivalent to";
 
             Console.WriteLine($"Searching all code in '{directoryPath}'...");
             Console.WriteLine($"Replacing '{searchText}' with '{replaceText}'...");
