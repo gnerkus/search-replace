@@ -1,8 +1,8 @@
 namespace search_replace
 {
-    public partial class Form1 : Form
+    public partial class ProgressDialog : Form
     {
-        public Form1()
+        public ProgressDialog()
         {
             InitializeComponent();
         }
